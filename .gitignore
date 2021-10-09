@@ -1,0 +1,4 @@
+/documentacao/*.pdf
+.env
+*.pdf
+*.csv
