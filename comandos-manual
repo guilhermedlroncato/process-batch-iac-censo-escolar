@@ -2,4 +2,4 @@
  - nome do bucket s3: terraform-state-igti-roncato
 
 # criar key pair da lambdafunction no EC2: 
- - 
+ - nome do key pair: roncato-igti-teste
