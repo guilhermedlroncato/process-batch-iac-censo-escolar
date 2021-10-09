@@ -12,7 +12,7 @@ def handler(event, context):
                 JobFlowRole='EMR_EC2_DefaultRole',
                 VisibleToAllUsers=True,
                 LogUri='s3://datalake-roncato-igti-edc-tf/emr-logs',
-                ReleaseLabel='emr-6.3.0',
+                ReleaseLabel='emr-6.1.0',
                 Instances={
                     'InstanceGroups': [
                         {
@@ -30,7 +30,7 @@ def handler(event, context):
                             'InstanceCount': 1,
                         }
                     ],
-                    'Ec2KeyName': 'ney-igti-teste',
+                    'Ec2KeyName': 'roncato-igti-teste',
                     'KeepJobFlowAliveWhenNoSteps': True,
                     'TerminationProtected': False,
                     'Ec2SubnetId': 'subnet-1df20360'
