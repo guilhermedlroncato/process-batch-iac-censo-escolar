@@ -33,7 +33,7 @@ def handler(event, context):
                     'Ec2KeyName': 'roncato-igti-teste',
                     'KeepJobFlowAliveWhenNoSteps': True,
                     'TerminationProtected': False,
-                    'Ec2SubnetId': 'subnet-1df20360'
+                    'Ec2SubnetId': 'subnet-2c217222'
                 },
 
                 Applications=[
