@@ -10,7 +10,7 @@ enem = spark.read\
         .format('csv')\
         .option('header', True)\
         .option('inferSchema', True)\
-        .option('delimiter', ';')\
+        .option('delimiter', '|')\
         .load('s3://datalake-roncato-igti-edc-tf/raw-data/censo/')
 
 # salvar o dado em parquet no S3
