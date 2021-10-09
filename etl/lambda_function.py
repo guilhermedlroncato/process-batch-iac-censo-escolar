@@ -42,7 +42,6 @@ def handler(event, context):
                     {'Name': 'Pig'},
                     {'Name': 'Hue'},
                     {'Name': 'JupyterHub'},
-                    {'Name': 'JupyterEnterpriseGateway'},
                     {'Name': 'Livy'},
                 ],
 

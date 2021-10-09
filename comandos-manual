@@ -1,2 +1,5 @@
-# criação do bucket do state do terraform: nome do bucket s3: terraform-state-igti-roncato
-# 
+# criação do bucket do state do terraform: 
+ - nome do bucket s3: terraform-state-igti-roncato
+
+# criar key pair da lambdafunction no EC2: 
+ - 
